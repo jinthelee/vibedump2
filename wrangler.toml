@@ -9,7 +9,7 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "vibedump-db"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "f0b7decc-cc43-43f4-8d43-707aba9a8c76"
 
 [vars]
 NODE_ENV = "production"
