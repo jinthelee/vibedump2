@@ -3,13 +3,5 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "dist"
 
-# Cloudflare D1 Database binding
-# D1 생성 후 출력되는 database_id를 아래에 입력하거나
-# Cloudflare Pages 대시보드 > Settings > Functions > D1 database bindings 에서 'DB'로 연결합니다.
-[[d1_databases]]
-binding = "DB"
-database_name = "vibedump-db"
-database_id = "f0b7decc-cc43-43f4-8d43-707aba9a8c76"
-
 [vars]
 NODE_ENV = "production"
