@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    background-color: #FAFAF5;
+    color: #0A0A0A;
+  }
+
+  .font-display {
+    font-family: "Black Han Sans", "Pretendard", sans-serif;
+  }
+}
+
+/* Neo-brutalist retro button and card interactions */
+.press-btn {
+  border: 2px solid #0A0A0A;
+  box-shadow: 3px 3px 0 #0A0A0A;
+  transition: all 0.12s ease;
+}
+
+.press-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #0A0A0A;
+}
+
+.press-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #0A0A0A;
+}
+
+.neo-card {
+  border: 2px solid #0A0A0A;
+  box-shadow: 4px 4px 0 #0A0A0A;
+  transition: all 0.15s ease;
+}
+
+.neo-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #0A0A0A;
+}
+
+.neo-box {
+  border: 2px solid #0A0A0A;
+  box-shadow: 4px 4px 0 #0A0A0A;
+}

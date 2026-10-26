@@ -1,0 +1,6 @@
+{
+  "name": "VibeDump",
+  "description": "바이브 코딩으로 만들어진 웹사이트와 앱을 발견하고, 공유하고, 탐색하는 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
